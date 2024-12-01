@@ -1,0 +1,221 @@
+
+ /* 1. ---General Styles--- */
+
+ #mobile-outline {
+    outline: 20px solid #333;
+    max-width: 412px;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+ } 
+ 
+ body {
+    color: #626262;
+    font-family: 'Sanchez', 'Times New Roman', serif;
+ }
+ 
+ a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+ }
+ 
+ 
+ .cr-red {
+    color: #9a2018;
+ }
+ 
+ 
+ /* 2. ---Main Nav--- */
+ 
+  #main-nav label img {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin-bottom: 20px; 
+ } 
+ 
+ #main-nav input, #burger-con {
+    display: none;
+ }
+ 
+ /*   ~ sibling selector   */
+ 
+ #main-nav input:checked ~ #burger-con {
+    display: block;
+ }
+ 
+ #main-nav input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+ 
+ #main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ #main-nav ul li a {
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #626262;
+ }
+ 
+ #main-nav ul li {
+    border-bottom: 1px solid #efefef;
+ }
+ 
+ #main-nav ul li:first-child {
+    border-top: 1px solid #efefef;
+ }
+ 
+ #main-nav ul li:last-child {
+    margin-bottom: 10px;
+ }
+ 
+ #logo {
+    margin-bottom: 20px;
+    max-width: 382px;
+ }
+ 
+ 
+ /* 3. ---Main Hero Image--- */
+ 
+ #hero {
+    background: url(../images/hero-main_activities.jpg) no-repeat;
+    height: 220px;
+ }
+ 
+ #hero-heading-box {
+    align-self: end;
+ }
+ 
+ .banner{
+    background: rgb(255, 255, 255);
+    padding: 10px 15px;
+    font-size: 21px;
+ }
+ 
+ .banner span {
+    color: #9a2018;
+    font-size: 12px;
+ }
+ 
+ .line-separator {
+    margin-top: 20px;
+    border-top: solid 3px #CF6666;
+    padding-top: 20px;
+ }
+ 
+ #activities-summary p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+ }
+ 
+#spring-con {
+   background: url(../images/spring-banner.jpg) no-repeat;
+   height: 220px;
+   margin-top: 20px;
+ }
+ 
+#spring-heading-box {
+    align-self: end;
+ }
+ 
+#spring-summary h2 {
+    background-color: #efefef;
+    margin-top: 10px;
+ }
+ 
+#spring-summary p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 20px;
+ }
+
+ #summer-con {
+   background: url(../images/summer-banner.jpg) no-repeat;
+   height: 220px;
+   margin-top: 20px;
+ }
+
+ #summer-heading-box {
+   align-self: end;
+}
+
+ #fall-con {
+   background: url(../images/fall-banner.jpg) no-repeat;
+   height: 220px;
+   margin-top: 20px;
+ }
+
+ #fall-heading-box {
+   align-self: end;
+}
+
+ #winter-con {
+   background: url(../images/winter-banner.jpg) no-repeat;
+   height: 220px;
+   margin-top: 20px;
+ }
+
+ #winter-heading-box {
+   align-self: end;
+}
+
+#type-1, #type-2 {
+    margin-bottom: 45px;
+ }
+ 
+ #algonquin-park-con {
+   background: url(../images/algonquin-banner.jpg) no-repeat;
+   height: 220px;
+   margin-top: 20px;
+ } 
+
+ #algonquin-heading-box {
+   align-self: end;
+}
+
+#algonquin-summary h2 {
+   background-color: #efefef;
+   margin-top: 10px;
+}
+
+#algonquin-summary p {
+   font-size: 14px;
+   margin-bottom: 30px;
+   line-height: 20px;
+}
+
+ 
+ #footer-hero {
+    background-image: url(../images/footer.jpg);
+     background-repeat: no-repeat;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 40px;
+    padding-bottom: 80px;
+ }
+ 
+ #footer-hero h3 {
+    margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 16px;
+ }
+ 
+ #footer-privacy .line-seperator {
+    margin-top: 0px;
+ }
+ 
+ #footer-contact-info h3 {
+    font-size: 23px;
+ }
+ 
+ #footer-contact-info p {
+    margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 11px;
+ }
