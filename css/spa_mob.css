@@ -89,7 +89,7 @@ input, textarea {
 
 #hero {
    background: url(../images/hero-main_spa.jpg) no-repeat;
-   height: 200px;
+   height: 220px;
 }
 
 
@@ -100,7 +100,7 @@ input, textarea {
 .hero-img-h2, .hero-img-h3 {
    background: rgb(255, 255, 255);
    padding: 10px 15px;
-   font-size: 14px;
+   font-size: 21px;
 }
 
 .hero-img-h2 span,  .hero-img-h3 span {
@@ -122,7 +122,7 @@ input, textarea {
 
 #menu-con {
   background: url(../images/menu-banner.jpg) no-repeat;
-  height: 195px;
+  height: 220px;
 }
 
 #menu-heading-box {
