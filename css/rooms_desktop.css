@@ -1,0 +1,340 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 40px;
+    font-family: 'Sanchez', 'Times New Roman', serif;
+ }
+ 
+a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+ }
+ 
+ 
+.cr-red {
+    color: #9a2018;
+ }
+
+.hidden {
+    display: none;
+}
+
+header {
+  display: flex;
+  width: 1180px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#logo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#top-nav ul{
+  margin-top: 40px;
+  padding: 0;
+}
+
+#top-nav li{
+    list-style-type: none;
+    display: inline;
+    font-size: 16px;
+    padding-left: 25px;
+    margin-bottom: 15px;
+}
+
+#top-nav ul li a{
+  color: #505050;
+}
+
+#logo {
+  margin-bottom: 20px;
+  max-width: 382px;
+}
+
+#hero {
+  background: url(../images/Accommodations_desktop.jpg) no-repeat;
+  height: 450px;
+}
+
+#hero-heading-box {
+  align-self: end;
+  padding-right: 7px;
+}
+
+.banner{
+  background: rgb(255, 255, 255);
+  padding: 10px 15px;
+  font-size: 24px;
+}
+
+.banner span {
+  color: #9a2018;
+  font-size: 12px;
+}
+
+.line-separator {
+  border-top: solid 3px #CF6666;
+  padding-top: 20px;
+}
+
+#rooms-summary p {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+#gallery {
+  background: url(../images/room_gallery_desktop.jpg) no-repeat;
+  height: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 2px 2px 7px #CF6666
+}
+
+#chateaus-con {
+ background: url(../images/chateau-desktop.jpg) no-repeat;
+ height: 450px;
+ margin-top: 20px;
+}
+
+#chateaus-heading-box {
+  align-self: end;
+}
+
+#chateaus-summary {
+  padding-bottom: 30px;
+}
+
+#chateaus-summary p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+#chateaus-summary span{
+  text-decoration: underline 3px #9a2018;
+}
+
+#check-botton-1 ,#check-botton-2,#check-botton-3,#check-botton-4,#check-botton-5,#check-botton-6{
+  background-color: #9a2018;
+  background-size: 140px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px 30px;
+  transition:all 0.3s ease;
+  cursor: pointer;
+  transition: background-color 500ms linear;
+}
+
+#check-botton-1:hover, #check-botton-2:hover, #check-botton-3:hover, #check-botton-4:hover, #check-botton-5:hover, #check-botton-6:hover{
+  background-color: rgb(196, 28, 28);
+}
+
+#check-botton-1 p{
+  color: #fff;
+  margin:0;
+}
+
+#spa-villas-con {
+ background: url(../images/spa-villas-desktop.jpg) no-repeat;
+ height: 450px;
+ margin-top: 20px;
+}
+
+#spa-villas-heading-box {
+ align-self: end;
+}
+
+#spa-villas-summary{
+  padding-bottom: 30px;
+}
+
+#spa-villas-summary p {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+#check-botton-2 p {
+  color: #fff;
+  margin:0;
+}
+
+#spa-villas-summary span{
+  text-decoration: underline 3px #9a2018;
+}
+
+#masters-con {
+ background: url(../images/master-desktop.jpg) no-repeat;
+ height: 450px;
+ margin-top: 20px;
+}
+
+#masters-heading-box {
+ align-self: end;
+}
+
+#masters-summary{
+  padding-bottom: 30px;
+}
+
+#masters-summary p {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+#check-botton-3 p {
+  color: #fff;
+  margin:0;
+}
+
+#masters-summary span{
+  text-decoration: underline 3px #9a2018;
+}
+
+#exotic-con {
+ background: url(../images/exotics-desktop.jpg) no-repeat;
+ height: 450px;
+ margin-top: 20px;
+}
+
+#exotic-heading-box {
+ align-self: end;
+}
+
+#exotic-summary{
+  padding-bottom: 30px;
+}
+
+#exotic-summary p {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+#check-botton-4 p {
+  color: #fff;
+  margin:0;
+}
+
+#exotic-summary span{
+  text-decoration: underline 3px #9a2018;
+}
+
+
+#chalets-con {
+ background: url(../images/chalet-desktop.jpg) no-repeat;
+ height: 450px;
+ margin-top: 20px;
+} 
+
+#chalet-heading-box {
+  align-self: end;
+}
+
+#chalet-summary{
+  padding-bottom: 30px;
+}
+
+#chalet-summary p {
+   font-size: 14px;
+   line-height: 20px;
+   margin-bottom: 20px;
+}
+
+#check-botton-5 p {
+   color: #fff;
+   margin:0;
+}
+
+#chalet-summary span{
+   text-decoration: underline 3px #9a2018;
+}
+
+#juniors-con {
+  background: url(../images/juniors-desktop.jpg) no-repeat;
+  height: 450px;
+  margin-top: 20px;
+} 
+
+#juniors-heading-box {
+   align-self: end;
+}
+
+#juniors-summary{
+  padding-bottom: 100px;
+}
+
+#juniors-summary p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+ }
+
+ #check-botton-6 p {
+    color: #fff;
+    margin:0;
+ }
+
+ #juniors-summary span{
+    text-decoration: underline 3px #9a2018;
+ }
+
+#subs {
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+}
+
+input[type="checkbox"]:checked + span::after {
+  content: "📧";
+  margin-left: 10px;
+  size: 20px;
+}
+
+input[type="checkbox"]:hover {
+  outline: 2px solid #CF6666;
+}
+
+#footer-hero {
+  background-image: url(../images/footer-mt.jpg);
+  background-repeat: no-repeat;
+  width: 1200px;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 40px;
+  padding-bottom: 80px;
+}
+
+#footer-hero h3 {
+  margin-top: 30px;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+#footer-privacy .line-seperator {
+  margin-top: 0px;
+}
+
+#footer-privacy {
+  font-size: 12px;
+  text-align: center;
+}
+
+#footer-contact-info h3 {
+  font-size: 24px;
+}
+
+#footer-contact-info p {
+  margin-bottom: 20px;
+  line-height: 18px;
+  font-size: 14px;
+}

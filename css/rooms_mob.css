@@ -134,7 +134,7 @@
     text-decoration: underline 3px #9a2018;
  }
 
-#check-availability {
+#check-botton-1 ,#check-botton-2,#check-botton-3,#check-botton-4,#check-botton-5,#check-botton-6{
     background-color: #9a2018;
     background-size: 140px;
     text-align: center;
@@ -146,11 +146,11 @@
     transition: background-color 500ms linear;
  }
 
-#check-availability:hover{
+#check-botton-1:hover, #check-botton-2:hover, #check-botton-3:hover, #check-botton-4:hover, #check-botton-5:hover, #check-botton-6:hover{
     background-color: rgb(196, 28, 28);
  }
 
-#check-availability p {
+#check-botton-1 p{
     color: #fff;
     margin:0;
  }
@@ -171,7 +171,7 @@
     margin-bottom: 20px;
  }
 
- #check-availability p {
+ #check-botton-2 p {
     color: #fff;
     margin:0;
  }
@@ -196,7 +196,7 @@
     margin-bottom: 20px;
  }
 
- #check-availability p {
+ #check-botton-3 p {
     color: #fff;
     margin:0;
  }
@@ -221,7 +221,7 @@
     margin-bottom: 20px;
  }
 
- #check-availability p {
+ #check-botton-4 p {
     color: #fff;
     margin:0;
  }
@@ -247,7 +247,7 @@
      margin-bottom: 20px;
   }
  
-  #check-availability p {
+  #check-botton-5 p {
      color: #fff;
      margin:0;
   }
@@ -272,7 +272,7 @@
       margin-bottom: 20px;
    }
   
-   #check-availability p {
+   #check-botton-6 p {
       color: #fff;
       margin:0;
    }
