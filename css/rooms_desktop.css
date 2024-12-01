@@ -297,7 +297,6 @@ header {
 input[type="checkbox"]:checked + span::after {
   content: "📧";
   margin-left: 10px;
-  size: 20px;
 }
 
 input[type="checkbox"]:hover {
