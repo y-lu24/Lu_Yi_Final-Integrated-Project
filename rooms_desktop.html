@@ -2,53 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Welcome to Couples Resort</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
-    <link href="css/grid.css" rel="stylesheet" type="text/css">
-    <link href="css/rooms_mob.css" rel="stylesheet" type="text/css">
-    <title>Welcome to View Couples Resort Rooms</title>
+    <link href="css/rooms_desktop.css" rel="stylesheet" type="text/css">
+    <link href="css/grid_desktop.css" rel="stylesheet" type="text/css">
 </head>
-    <body>
-        <div id="mobile-outline">
-        <h1 class="hidden">Activities</h1>
-        <!-- Main Nav -->         
-            <header class="grid-con" id="main-header">
-                <nav id="main-nav" class="col-span-full">
-                    <h2 class="hidden">Main Navigation</h2>
-                    <input type="checkbox" id="hamburger">
-                    <label for="hamburger">
-                    <img src="images/burger.svg" alt="hamburger menu icon">
-                    </label>
-                    <div id="burger-con">
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="rooms_mob.html">Rooms</a></li>
-                            <li><a href="#">Packages</a></li>
-                            <li><a href="#">Dining</a></li>
-                            <li><a href="spa_mob.html">Spa</a></li>
-                            <li><a href="activities_mob.html">Activities</a></li>
-                           <li><a href="#">Reservations</a></li>
-                        </ul>
-                    </div>
-                </nav>
-                <div id="logo" class="col-span-full">
-                    <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
-                </div>
-            </header>  
 
+<body>
+    <h1 class="hidden">Welcome to View Couples Resort Rooms</h1>
+    <div id="wrapper">
+        <header class="grid-con" id="main-header">
+            <h2 class="hidden">Header Content</h2>
+            <div class="col-start-1 col-end-5"><img id="logo" src="images/couples_resort_logo.svg" alt="rosort logo"></div>
+            <nav id="top-nav" class="col-start-5 col-end-12">
+            <h3 class="hidden">Main Navigation</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="rooms_desktop.html">Rooms</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">Dining</a></li>
+                <li><a href="#">Spa</a></li>
+                <li><a href="#">Activities</a></li>
+                <li><a href="#">Reservations</a></li>
+            </ul>
+          </nav>
+        </header>
 
             <section id="hero" class="grid-con">
                 <h2 class="hidden">Couples Resort's Rooms</h2>                       
-                <section id="hero-heading-box" class="col-span-full">
+                <section id="hero-heading-box" class="col-start-2 col-end-7">
                     <h2 class="banner">
                         <span>Couples Resort</span><br> Accommodations</h2>
                 </section>
             </section>      
 
             <div class="grid-con">
-                <section id="rooms-summary" class="col-span-full line-separator">
+                <section id="rooms-summary" class="col-start-2 col-end-11 line-separator">
                     <h2 class="hidden">Resort's Rooms Summary</h2>
                     <p>The Couples Resort offers luxurious accommodations designed for romance and relaxation in the heart of nature. </p> 
                     <p>Each suite or chalet provides an intimate retreat with premium amenities like private hot tubs, wood-burning fireplaces, and breathtaking views of the surrounding wilderness.</p>
@@ -56,13 +48,20 @@
                 </section>
             </div>
 
+            <div class="grid-con">
+                <section id="gallery" class="col-start-2 col-end-12 line-separator">
+                    <h2 class="hidden">Resort's Rooms Summary</h2>
+                </section>
+            </div>
+
+
             <section id="chateaus-con" class="grid-con">             
-                <div id="chateaus-heading-box" class="col-span-full">
+                <div id="chateaus-heading-box" class="col-start-2 col-end-7">
                     <h2 class="banner"><span>Couples Resort</span><br> Chateaus</h2>
                 </div> 
             </section>
             <div class="grid-con">
-                <section id="chateaus-summary" class="col-span-full line-separator">
+                <section id="chateaus-summary" class="col-start-2 col-end-11 line-separator">
                         <h2 class="hidden">Chateaus Info</h2>
                         <p>1400 sq feet / 130 sq.m</p>
                         <p>Old European Boutique Chateaus and each with a Private Screened in Gazebo, Walkout Balcony and Outdoor Hot Tub to soothe life's pains away while enjoying views of spectacular scenery overlooking sparkling Galeairy Lake onto the romantic forests of Algonquin Park.</p>
@@ -72,12 +71,12 @@
             </div>
 
             <section id="spa-villas-con" class="grid-con">
-                <div id="spa-villas-heading-box" class="col-span-full">
+                <div id="spa-villas-heading-box" class="col-start-2 col-end-7">
                     <h2 class="banner"><span>Couples Resort</span><br> SPA Villas</h2>
                 </div> 
             </section>
             <div class="grid-con">
-                <section id="spa-villas-summary" class="col-span-full line-separator">
+                <section id="spa-villas-summary" class="col-start-2 col-end-11 line-separator">
                     <h2 class="hidden">Spa Villas Info</h2>
                     <p>1000 sq feet / 92.9 sq.m</p>
                         <p>Old European Boutique Spa Villas and each with Private Screened in Gazebo with private Outdoor Hot Tub, nestled Lakeside.</p>
@@ -87,12 +86,12 @@
             </div>
 
             <section id="masters-con" class="grid-con">
-                <div id="masters-heading-box" class="col-span-full">
+                <div id="masters-heading-box" class="col-start-2 col-end-7">
                     <h2 class="banner"><span>Couples Resort</span><br> Masters</h2>
                 </div> 
             </section>
             <div class="grid-con">
-                <section id="masters-summary" class="col-span-full line-separator">
+                <section id="masters-summary" class="col-start-2 col-end-11 line-separator">
                     <h2 class="hidden">Masters Info</h2>
                     <p>1000 sq feet / 92.9 sq.m</p>
                     <p>Old European Lakeside Boutique Opulence for a Romance Getaway. </p>
@@ -103,12 +102,12 @@
             </div>
 
             <section id="exotic-con" class="grid-con">
-                <div id="exotic-heading-box" class="col-span-full">
+                <div id="exotic-heading-box" class="col-start-2 col-end-7">
                     <h2 class="banner"><span>Couples Resort</span><br> Exotics</h2>
                 </div> 
             </section>
             <div class="grid-con">
-                <section id="exotic-summary" class="col-span-full line-separator">
+                <section id="exotic-summary" class="col-start-2 col-end-11 line-separator">
                     <h2 class="hidden">Exotics Info</h2>
                     <p>2 at 1000 sq ft / 92.9 sq.m<br> 4 at 600 sq ft / 55.74 sq.m</p>
                     <p>HOT TUB EXOTIC Jr. SUITES for the tribal in you. This is for the adventurous; if one Dreams of having a Romantic Escape you will be Spoiled with all the Wet Indulgences in these Jr Suites and the Exotic in you will be Satisfied.</p>
@@ -118,12 +117,12 @@
             </div>
 
             <section id="chalets-con" class="grid-con">
-                <div id="chalet-heading-box" class="col-span-full">
+                <div id="chalet-heading-box" class="col-start-2 col-end-7">
                     <h2 class="banner"><span>Couples Resort</span><br> Chalets</h2>
                 </div> 
             </section>
             <div class="grid-con">
-                <section id="chalet-summary" class="col-span-full line-separator">
+                <section id="chalet-summary" class="col-start-2 col-end-11 line-separator">
                     <h2 class="hidden">Chalets Info</h2>
                     <p>700 sq feet / 65.03 sq.m</p>
                     <p>Algonquin Rustic Luxury Utopian Chalets. These two Chalets are lakefront and completely finished in dark cedar and are with private hot tubs. Enjoy original Canadiana Cabins while indulging in the atmosphere of pure wood and natural stone.
@@ -134,12 +133,12 @@
             </div>
 
             <section id="juniors-con" class="grid-con">
-                <div id="juniors-heading-box" class="col-span-full">
+                <div id="juniors-heading-box" class="col-start-2 col-end-7">
                     <h2 class="banner"><span>Couples Resort</span><br> Juniors</h2>
                 </div> 
             </section>
             <div class="grid-con">
-                <section id="juniors-summary" class="col-span-full line-separator">
+                <section id="juniors-summary" class="col-start-2 col-end-11 line-separator">
                     <h2 class="hidden">Juniors Info</h2>
                     <p>600 sq feet / 55.74 sq.m</p>
                     <p>Boutique Algonquin designed and styled with natural elements of real cedar wood, marble and granite to bring you in touch with Algonquin Park. Open the patio doors and smell and taste clean pure fresh air as you walk out onto your private deck. </p>
@@ -148,8 +147,10 @@
                 </section>
             </div>
 
+            <section id="subs"><input type="checkbox"><span>I would like to receive the newsletter from Couples Resort!</span></section>
+
             <footer id="footer-hero" class="grid-con">        
-                <section id="footer-contact-info" class="col-span-full">
+                <section id="footer-contact-info" class="col-start-3 col-end-8">
                     <h3>Couples Resort</h3>
                     <p>1198 Osprey Rd, (End of)<br>
                         Minden, Soyers Lake, ON, <br>
@@ -161,7 +162,7 @@
                         E-mail: info@coupleresort.com
                     </p>
                 </section>
-                <div id="footer-privacy" class="col-span-full line-separator">
+                <div id="footer-privacy" class="col-start-2 col-end-12 line-separator">
                     <p id="price-policy">All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change. Please call to confirm services, availability and pricing. ©2013 Couples Resort Inc. All Rights Reserved. Privacy Policy </p>
                 </div>
         </footer>
