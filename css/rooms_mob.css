@@ -276,12 +276,49 @@
       color: #fff;
       margin:0;
    }
+
+   #juniors-summary {
+      padding-bottom: 30px;
+   }
   
    #juniors-summary span{
       text-decoration: underline 3px #9a2018;
    }
 
-
+   #contact-hero-form form {
+      display: flex;
+      flex-direction: column;
+      padding-top: 30px;
+   }
+   
+   #contact-hero-form input, textarea {
+      padding: 22px;
+      border: 2px solid #d6d6d6;
+      background-color: #f7f7f7;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      font: inherit;
+      width: auto;
+   }
+   
+   #contact-hero-form textarea {
+      height: 250px;
+   }
+   
+   #contact-hero-form input[type="submit"] {
+      padding: 12px 28px;
+      background: #9a2018;
+      color: #fff;
+      border: none;
+      transition: all 200ms ease-in;
+      width: 150px;
+      align-self: flex-end;
+   }
+   
+   #contact-hero-form input[type="submit"]:hover {
+      background-color: #626262;
+      border-radius: 0;
+   }
  
  #footer-hero {
     background-image: url(../images/footer.jpg);
